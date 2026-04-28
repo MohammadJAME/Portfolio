@@ -1,0 +1,9 @@
+@import "tailwindcss";
+body{
+    font-family: Helvetica;
+}
+
+.box {
+  will-change: transform, opacity, filter;
+}
+
