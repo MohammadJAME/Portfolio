@@ -6,9 +6,10 @@ import video from "../../../assets/hero.mp4"
 const Hero = () => {
   const heroRef = useRef(null);
   const videoRef = useRef(null);
+  const videoOverlayRef = useRef(null);
   const overlayRef = useRef(null);
 
-  useHeroFadeAnimation(heroRef, videoRef, overlayRef);
+  useHeroFadeAnimation(heroRef, videoRef, videoOverlayRef, overlayRef);
 
   return (
     <section
@@ -17,7 +18,7 @@ const Hero = () => {
     >
       <video
         ref={videoRef}
-        className="fixed top-1/2 left-1/2 object-cover w-screen h-screen -translate-x-1/2 -translate-y-1/2"
+        className="fixed top-0 left-0 w-screen h-screen object-cover"
         autoPlay
         muted
         loop
@@ -27,7 +28,12 @@ const Hero = () => {
 
       <div
         ref={overlayRef}
-        className="bg-[linear-gradient(to_bottom,transparent_60%,black_100%)] fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-screen h-screen"
+        className="bg-[linear-gradient(to_bottom,transparent_60%,black_100%)] fixed top-0 left-0 w-screen h-screen"
+      />
+
+      <div
+        ref={videoOverlayRef}
+        className="bg-black fixed top-0 left-0 w-screen h-screen"
       />
 
       <div className="text-xl flex w-full justify-between items-center absolute bottom-0 p-4">
@@ -37,5 +43,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;

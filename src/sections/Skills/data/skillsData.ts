@@ -15,7 +15,7 @@ export const skillCategories = [
         name: "HTML",
         icon: SiHtml5,
         color: "#E34F26",
-        percent: 90,
+        percent: 95,
         description:
           "Semantic HTML5 structure focused on accessibility and SEO.",
       },
@@ -23,7 +23,7 @@ export const skillCategories = [
         name: "CSS",
         icon: SiCss,
         color: "#1572B6",
-        percent: 85,
+        percent: 95,
         description:
           "Modern layouts using Flexbox, Grid and responsive design.",
       },
@@ -31,7 +31,7 @@ export const skillCategories = [
         name: "JavaScript",
         icon: SiJavascript,
         color: "#F7DF1E",
-        percent: 80,
+        percent: 85,
         description: "ES6+, DOM manipulation, async patterns and browser APIs.",
       },
     ],
@@ -43,7 +43,7 @@ export const skillCategories = [
         name: "TypeScript",
         icon: SiTypescript,
         color: "#3178C6",
-        percent: 75,
+        percent: 60,
         description:
           "Typed JavaScript for scalable and maintainable applications.",
       },
@@ -51,7 +51,7 @@ export const skillCategories = [
         name: "React",
         icon: SiReact,
         color: "#61DAFB",
-        percent: 85,
+        percent: 90,
         description:
           "Component based UI development with hooks and reusable architecture.",
       },
@@ -59,7 +59,7 @@ export const skillCategories = [
         name: "Tailwind",
         icon: SiTailwindcss,
         color: "#06B6D4",
-        percent: 90,
+        percent: 95,
         description:
           "Utility‑first CSS framework for rapid and consistent UI design.",
       },

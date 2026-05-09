@@ -69,7 +69,7 @@ const About = () => {
       {/* TEXT CENTER PIN & FADE IN | FADE OUT */}
       <div className="w-full h-[200vh] overflow-hidden">
         <p ref={textRef} className="text-6xl font-bold text-center">
-          Who am I?
+          Relentless Progress
         </p>
       </div>
 
@@ -80,8 +80,8 @@ const About = () => {
           <div className="word text-white">Front‑End</div>
           <div className="word">Developer</div>
           <div className="word">with</div>
-          <div className="word">one</div>
-          <div className="word">year</div>
+          <div className="word">two</div>
+          <div className="word">years</div>
           <div className="word">of</div>
           <div className="word">experience.</div>
 
