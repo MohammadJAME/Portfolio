@@ -45,7 +45,7 @@ export default function Footer() {
         <FooterSocials socialsRef={socialsRef} />
 
         <div className="text-neutral-500 text-sm">
-          © {new Date().getFullYear()} Mohammad — Frontend Developer
+          © {new Date().getFullYear()} Jameh shooran — Frontend Developer
         </div>
       </div>
 

@@ -8,8 +8,8 @@ export const CONTACT = {
 };
 
 export const SOCIALS = [
-  { icon: FaLinkedin, link: "https://linkedin.com/in/yourusername", label: "LinkedIn", color: "#0077b5" },
-  { icon: FaGithub, link: "https://github.com/yourusername", label: "GitHub", color: "#000000" },
-  { icon: FaXTwitter, link: "https://twitter.com/yourusername", label: "X", color: "#000000" },
+  { icon: FaLinkedin, link: "https://linkedin.com", label: "LinkedIn", color: "#0077b5" },
+  { icon: FaGithub, link: "https://github.com/MohammadJAME", label: "GitHub", color: "#000000" },
+  { icon: FaXTwitter, link: "https://twitter.com", label: "X", color: "#000000" },
   { icon: FaWhatsapp, link: "https://wa.me/989000000000", label: "WhatsApp", color: "#25D366" },
 ];
