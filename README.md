@@ -52,8 +52,8 @@ src
 ### 1. Clone & Install
 
 ```bash
-git clone [your-repo-url]
-cd [your-project-folder]
+git clone https://github.com/MohammadJAME/Portfolio
+cd Portfolio
 npm install
 ```
 ### 2. Run Locally
