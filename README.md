@@ -52,7 +52,7 @@ src
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/MohammadJAME/Portfolio
+git clone https://github.com/MohammadJAME/Portfolio.git
 cd Portfolio
 npm install
 ```
